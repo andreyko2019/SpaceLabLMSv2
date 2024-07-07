@@ -1,0 +1,9 @@
+{
+  "name": "spacelab-lms-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/spacelab-lms-e2e/src",
+  "implicitDependencies": ["spacelab-lms"],
+  "// targets": "to see all targets run: nx show project spacelab-lms-e2e --web",
+  "targets": {}
+}
