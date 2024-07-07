@@ -13,12 +13,7 @@
     "sharedGlobals": []
   },
   "plugins": [
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    },
+    { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } },
     {
       "plugin": "@nx/vite/plugin",
       "options": {
@@ -29,12 +24,7 @@
         "serveStaticTargetName": "serve-static"
       }
     },
-    {
-      "plugin": "@nx/playwright/plugin",
-      "options": {
-        "targetName": "e2e"
-      }
-    }
+    { "plugin": "@nx/playwright/plugin", "options": { "targetName": "e2e" } }
   ],
-  "nxCloudAccessToken": "OGQwYWYxZTctM2M2NS00ZjNmLWJkY2MtMzI5MWU5ZjI4NGRifHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "MzJjYmE5ZGItOGQ0Ny00OGE5LWFmN2UtZmJhYjFkNjgzNzZlfHJlYWQtd3JpdGU="
 }
